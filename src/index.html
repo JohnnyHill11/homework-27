@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link rel="stylesheet" href="./styles.min.css">
+  <script src="./app.min.js" async></script>
+</head>
+<body> 
+  <div id="chat" class="chat"></div>
+  <form id="form" class="form" name="form">
+      <input type="text" name="username" id="name" placeholder="Enter name" class="username-form form-input"/>
+      <input type="text" name="message" id="message" placeholder="Enter message" class="message-form form-input"/>
+      <button  type="hidden" class="button"></button>
+  </form>   
+  <script type="text/template" id="message-Template">
+    <div class="div" data-id = "{{id}}">{{username}}: {{message}}</div>
+  </script>
+</body>
+</html>

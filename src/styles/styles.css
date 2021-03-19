@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #cbeaf8;
+  margin: 0;
+  padding: 0;
+}
+.chat {
+  background: #ffffff;
+  max-width: 1000px;
+  height: 600px;
+  margin: 20px auto 0;
+  border: 1px solid #000;
+}
+.form {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.form-input{
+  padding: 10px 15px;
+  outline: none;
+  border: 1px solid #6b6767;
+  margin: 30px auto;
+  font-size: 14px;
+}
+.form-input:focus {
+  border: 2px solid #ed4c5c;
+}
+.username-form {
+  margin-right: 20px;
+}
+.message-form {
+  margin-right: 20px;
+}
+.button {
+  visibility: hidden;
+}
